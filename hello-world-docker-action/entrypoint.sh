@@ -2,4 +2,4 @@
 
 echo "Hi $1"
 
-echo "time=$(date)" >> $GITHUB_OUTPUT
+echo "TZ='Europe/Stockholm' time=$(date)" >> $GITHUB_OUTPUT
