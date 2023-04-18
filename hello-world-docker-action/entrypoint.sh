@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+export TZ="Europe/Stockholm"
+
 echo "Hi $1"
 
-echo "TZ='Europe/Stockholm' time=$(date)" >> $GITHUB_OUTPUT
+echo "time=$(date)" >> $GITHUB_OUTPUT
