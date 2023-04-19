@@ -51,7 +51,7 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3.3.0
-      - name: Start Test
+      - name: Start Load-Test
         run: |
            echo "🧪 Load testing..."
            sleep 15
